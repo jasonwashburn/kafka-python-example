@@ -2,6 +2,15 @@
 .vscode/
 .idea/
 
+# Bash
+.bash_history
+
+# Jupyter Related
+notebooks/.config/
+notebooks/.ipython/
+notebooks/.jupyter
+notebooks/.local
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
