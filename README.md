@@ -8,10 +8,7 @@ A docker-compose stack for experimenting with Kafka in python.
 2. cd into folder
 3. run `docker compose build`
 4. run `docker compose up`
-5. click on (or paste into your browser) the link provided in the jupyter lab log output from the terminal window to
-   access **Jupyter Lab** on [http://localhost:8888/](http://localhost:8888/)
-6. **Note: you'll need the link with the token**. Another way to get the token if you dont want to scroll through the
-   log output is to execute `docker logs jupyterlab 2>&1 | grep -A 2 "one of these URLs:"` in another terminal window.
+5. access **Jupyter Lab** on [http://localhost:8888/](http://localhost:8888/)
 
 ## Development Tips:
 

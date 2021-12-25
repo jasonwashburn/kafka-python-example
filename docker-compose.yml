@@ -30,10 +30,12 @@ services:
       dockerfile: Dockerfile
     environment:
       - JUPYTER_ENABLE_LAB=yes
+      - RESTARTABLE=yes
     ports:
       - 8888:8888
     volumes:
       - $PWD/notebooks:/home/jovyan
+    entrypoint: ["start.sh", "jupyter", "lab", "--LabApp.token=''"]
 
 volumes:
   zookeeper_data:
