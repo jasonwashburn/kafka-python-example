@@ -1,6 +1,8 @@
 # IDE Settings
-.vscode/
-.idea/
+*.vscode/
+*.idea/
+*.vscode-server/
+*.ssh/
 
 # Bash
 .bash_history
@@ -10,6 +12,8 @@ notebooks/.config/
 notebooks/.ipython/
 notebooks/.jupyter
 notebooks/.local
+notebooks/.gitconfig
+notebooks/.conda
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
